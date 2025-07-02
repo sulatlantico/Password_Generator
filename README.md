@@ -28,10 +28,10 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 - ❌ Exit button with save prompt.
 - ℹ️ "About" window with credits.
 
+--- 
 
 # 🚧 To-Do / Planned Updates
 
----
 ## Here are some improvements planned for future versions:
 
 ### ❌ Reject non-integer input
