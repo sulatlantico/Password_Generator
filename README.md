@@ -17,7 +17,7 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 [//]: # ()
 [//]: # (---)
 
-## ✨ Features
+# ✨ Features
 
 - 🔢 Set the **number of characters** per password.
 - 🔁 Choose how many **passwords to generate** at once.
@@ -28,24 +28,25 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 - ❌ Exit button with save prompt.
 - ℹ️ "About" window with credits.
 
+
+# 🚧 To-Do / Planned Updates
+
 ---
+## Here are some improvements planned for future versions:
 
-🚧 To-Do / Planned Updates
-- Here are some improvements planned for future versions:
-
-❌ Reject non-integer input
+### ❌ Reject non-integer input
 - Prevent the user from entering anything other than whole numbers in the input fields.
 
-⚠️ Custom warning screen
+### ⚠️ Custom warning screen
 - Display a warning popup whenever invalid characters or input formats are detected.
 
-📏 Unlimited password length
+### 📏 Unlimited password length
 - Allow passwords of any length by removing the current restriction imposed by random.sample().
 
-📏 Conda Environment and yml
+### 📏 Conda Environment and yml
 - Generate yml file with all libraries necessary to run the code.
 
-📏 EXE file
+### 📏 EXE file
 - Generate a exe file.
 ---
 
