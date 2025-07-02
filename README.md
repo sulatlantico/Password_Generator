@@ -51,7 +51,7 @@ Generate a exe file.
 
 ## 📦 Requirements
 
-- Python 3.8 or newer
+- Python 3.9 or newer
 - PyQt6
 
 Instale as dependências com:
