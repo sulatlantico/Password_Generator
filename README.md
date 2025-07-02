@@ -31,22 +31,22 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 ---
 
 🚧 To-Do / Planned Updates
-Here are some improvements planned for future versions:
+- Here are some improvements planned for future versions:
 
 ❌ Reject non-integer input
-Prevent the user from entering anything other than whole numbers in the input fields.
+- Prevent the user from entering anything other than whole numbers in the input fields.
 
 ⚠️ Custom warning screen
-Display a warning popup whenever invalid characters or input formats are detected.
+- Display a warning popup whenever invalid characters or input formats are detected.
 
 📏 Unlimited password length
-Allow passwords of any length by removing the current restriction imposed by random.sample().
+- Allow passwords of any length by removing the current restriction imposed by random.sample().
 
 📏 Conda Environment and yml
-Generate yml file with all libraries necessary to run the code.
+- Generate yml file with all libraries necessary to run the code.
 
 📏 EXE file
-Generate a exe file.
+- Generate a exe file.
 ---
 
 ## 📦 Requirements
