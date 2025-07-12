@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (
     QApplication, QWidget, QLabel, QPushButton, QLineEdit, QCheckBox,
     QMessageBox, QVBoxLayout, QStackedLayout, QScrollArea
 )
-from PyQt6.QtGui import QIcon, QPixmap, QFont
+from PyQt6.QtGui import QIcon, QPixmap, QFont, QIntValidator
 
 
 class PasswordGenerator(QWidget):
@@ -37,14 +37,18 @@ class PasswordGenerator(QWidget):
         self.main_screen.setStyleSheet("background: white;")
         background = QLabel(self.main_screen)
         background.setPixmap(QPixmap("cadeado.png").scaled(580, 550))
+        validator_char = QIntValidator(1,60)
+        validator_password = QIntValidator(1,999)
 
         self.add_label("Password Generator", 70, 50, 30, self.main_screen)
 
         self.add_label("Number of Characters", 175, 160, 10, self.main_screen)
         self.input_chars = self.add_line_edit("N° of characters", 175, 190, self.main_screen)
+        self.input_chars.setValidator(validator_char)
 
         self.add_label("Number of Generated Passwords", 175, 240, 10, self.main_screen)
         self.input_passwords = self.add_line_edit("N° of Passwords", 175, 260, self.main_screen)
+        self.input_passwords.setValidator(validator_password)
 
         self.checkbox_special = QCheckBox("Use Special Characters", self.main_screen)
         self.checkbox_special.setStyleSheet("background: transparent;")

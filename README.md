@@ -28,36 +28,55 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 - ❌ Exit button with save prompt.
 - ℹ️ "About" window with credits.
 
---- 
-
-# 🚧 To-Do / Planned Updates
-
-## Here are some improvements planned for future versions:
-
-### ❌ Reject non-integer input
-- Prevent the user from entering anything other than whole numbers in the input fields.
-
-### ⚠️ Custom warning screen
-- Display a warning popup whenever invalid characters or input formats are detected.
-
-### 📏 Unlimited password length
-- Allow passwords of any length by removing the current restriction imposed by random.sample().
-
-### 📏 Conda Environment and yml
-- Generate yml file with all libraries necessary to run the code.
-
-### 📏 EXE file
-- Generate a exe file.
 ---
+
+[//]: # (# 🚧 To-Do / Planned Updates)
+
+[//]: # (## Here are some improvements planned for future versions:)
+
+[//]: # (# ---)
 
 ## 📦 Requirements
 
 - Python 3.10 or newer
 - PyQt6
 
-Instale as dependências com:
+---
+
+## ⚙️ Setup Instructions
+
+### 🟡 Using `source` (recommended for lightweight setups)
+If you want to install the latest version of Password Generator from github, 
+you can simply do the following:
+```bash
+$ https://github.com/sulatlantico/Password_Generator.git
+$ cd mayavi
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+```
+### 🟡 Using `venv` (recommended for lightweight setups)
 
 ```bash
-pip install PyQt6
+# 1. Create a virtual environment (requires Python 3.10+)
+python3.10 -m venv pass_gen
 
+# 2. Activate the environment
+# On Windows:
+pass_gen\Scripts\activate
 
+# On Linux/macOS:
+source pass_gen/bin/activate
+
+# 3. Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 🟡 Using `conda` (not sure if works 100%)
+```bash
+
+# 1. Create a conda environment (requires Python 3.10+)
+conda env create -f conda_environment.yml
+
+# 2. Activate the conda env
+conda activate pass_gen
