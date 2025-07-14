@@ -137,7 +137,7 @@ class PasswordGenerator(QWidget):
         characters = base + symbols if use_special else base
         self.password_list = [''.join(random.sample(characters, length)) for _ in range(count)]
 
-        filename = 'PASSWORDS-GENERATED.txt' if use_special else 'GENERATED_PASSWORDS.txt'
+        filename = 'PASSWORDS_GENERATED.txt' if use_special else 'GENERATED_PASSWORDS.txt'
         with open(filename, 'w') as f:
             for i, pwd in enumerate(self.password_list):
                 f.write(f'Password {i}: {pwd}\n')
