@@ -55,7 +55,7 @@ If you want to install the latest version of Password Generator from github,
 you can simply do the following:
 ```bash
 $ https://github.com/sulatlantico/Password_Generator.git
-$ cd mayavi
+$ cd Password_Generator
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
