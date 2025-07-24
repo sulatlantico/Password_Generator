@@ -36,7 +36,7 @@ A modern and intuitive graphical password generator developed with **PyQt6**. Ge
 
 ### ❌ Set directory to save PASSWORDS_GENERATED.txt;
 
-###  ❌ Generate exe file with icon;
+### ❌ Generate exe file with icon;
 
 
 ---
